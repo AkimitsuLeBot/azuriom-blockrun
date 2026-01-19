@@ -38,8 +38,6 @@ COPY --from=build --chown=www-data:www-data /home/site/public/assets/vendor ./pu
 
 RUN composer install --no-ansi --no-dev --no-interaction --no-plugins --no-progress --no-scripts --optimize-autoloader && \
     php artisan storage:link && \
-    mkdir -p ./public/assets/vendor/clipboard && \
-    cp ./public/assets/themes/rainbow/js/clipboard.min.js  ./public/assets/vendor/clipboard/ &&\
     rm -rf composer.lock composer.json
 
 EXPOSE 80
