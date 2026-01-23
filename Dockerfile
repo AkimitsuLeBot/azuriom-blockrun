@@ -37,7 +37,6 @@ COPY --chown=www-data:www-data artisan .htaccess composer.json composer.lock ind
 COPY --from=build --chown=www-data:www-data /home/site/public/assets/vendor ./public/assets/vendor
 
 RUN composer install --no-ansi --no-dev --no-interaction --no-plugins --no-progress --no-scripts --optimize-autoloader && \
-    php artisan storage:link && \
-    rm -rf composer.lock composer.json
+    php artisan storage:link
 
 EXPOSE 80
