@@ -9,27 +9,67 @@
 
 <url>
   <loc>https://pixelax.fr/</loc>
-  <lastmod>2026-01-26T18:40:01+00:00</lastmod>
+  <lastmod>2026-01-27T17:49:46+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://pixelax.fr/join</loc>
+  <lastmod>2026-01-27T17:49:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pixelax.fr/vote</loc>
+  <lastmod>2026-01-27T17:49:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pixelax.fr/shop</loc>
+  <lastmod>2026-01-27T17:49:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://pixelax.fr/wiki</loc>
-  <lastmod>2026-01-26T18:40:01+00:00</lastmod>
+  <lastmod>2026-01-27T17:49:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pixelax.fr/changelog</loc>
-  <lastmod>2026-01-26T18:40:01+00:00</lastmod>
+  <lastmod>2026-01-27T17:49:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://pixelax.fr/shop/categories/temps-limite</loc>
+  <lastmod>2026-01-27T17:49:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pixelax.fr/shop/categories/grades</loc>
+  <lastmod>2026-01-27T17:49:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pixelax.fr/shop/categories/cles</loc>
+  <lastmod>2026-01-27T17:49:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pixelax.fr/shop/categories/boosters</loc>
+  <lastmod>2026-01-27T17:49:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pixelax.fr/shop/categories/cartes-cadeaux</loc>
+  <lastmod>2026-01-27T17:49:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://pixelax.fr/changelog/categories/1</loc>
-  <lastmod>2026-01-26T18:40:01+00:00</lastmod>
+  <lastmod>2026-01-27T17:49:46+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://pixelax.fr/changelog/categories/2</loc>
-  <lastmod>2026-01-26T18:40:01+00:00</lastmod>
+  <lastmod>2026-01-27T17:49:46+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
