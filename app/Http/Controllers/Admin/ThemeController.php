@@ -223,7 +223,6 @@ class ThemeController extends Controller
         foreach ($replacement as $key => $value) {
             if (! is_array($value)) {
                 $config[$key] = $value;
-
                 continue;
             }
 
@@ -231,14 +230,12 @@ class ThemeController extends Controller
             if ($value['$replace'] ?? false) {
                 unset($value['$replace']);
                 $config[$key] = $value;
-
                 continue;
             }
 
             // Replace numeric arrays (lists) instead of merging
             if (array_is_list($value)) {
                 $config[$key] = $value;
-
                 continue;
             }
 
