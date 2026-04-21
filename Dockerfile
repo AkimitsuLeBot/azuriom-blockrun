@@ -20,7 +20,10 @@ RUN apt-get update && apt-get install -y libmcrypt-dev libfreetype6-dev vim \
   # composer taken from (https://github.com/geshan/docker-php-composer-alpine)
   && curl -sSL https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer \
   && a2enmod rewrite \
-  && a2enmod remoteip
+  && a2enmod remoteip \
+  && a2enmod headers \
+  && a2enmod expires \
+  && a2enmod deflate
 
 USER www-data
 
